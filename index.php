@@ -21,4 +21,4 @@ SQL;
 
 $post = $database->query('SELECT * FROM post ORDER BY id');
 
-require '@main.html.php';
+require '@layout.html.php';
