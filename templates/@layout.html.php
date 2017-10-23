@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>The best super truper ultra mega first blog</title>
+    <title><?php echo $pageTitle ?></title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -76,7 +76,7 @@
         <div class="col-lg-8 col-md-10 mx-auto">
 
             <?php
-            foreach ($post as $postrow) {
+            foreach ($posts as $postrow) {
 
             ?>
             <div class="post-preview">
