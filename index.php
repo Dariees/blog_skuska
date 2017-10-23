@@ -1,5 +1,4 @@
 <?php
-
 require "master.inc.php";
 //query for choosing first 3 posts
 $sql = "SELECT * FROM post ORDER BY created_at LIMIT 3";

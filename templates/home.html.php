@@ -1,17 +1,17 @@
 <?php
-foreach ($post as $row){
+foreach ($posts as $post){
     ?>
     <br>
     <strong>
-        <a href=" <?php echo $rootDir ?>?id=<?php $row->id; ?>">
-            <?= $row->title ?>
+        <a href="article.php?id=<?php echo $row->id; ?>">
+            <?= $post->title ?>
         </a>
     </strong>
     <br>
-    <?= $row->teaser; ?>
+    <?= $post->teaser; ?>
     <br>
     <em>
-        <?= $row->created_by; ?>
+        <?= $post->created_by; ?>
     </em>
     <br>
     <br>
