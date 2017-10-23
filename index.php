@@ -1,24 +1,11 @@
 <?php
-require 'vendor/autoload.php';
 
-$connection = [
-    'driver' => 'mysqli',
-    'host' => 'localhost',
-    'username' => 'root',
-    'password' => '',
-    'database' => 'blog',
-];
-
-// v případě chyby vyhodí Dibi\Exception
-$database = new Dibi\Connection($connection);
-//$res = $database->query('SELECT * FROM post');
-$sql = <<<SQL
-SELECT *
-FROM post
-ORDER BY created_at 
-LIMIT 3
-SQL;
-
-$post = $database->query('SELECT * FROM post ORDER BY id');
-
-require 'templates/@layout.html.php';
+require "master.inc.php";
+//query for choosing first 3 posts
+$sql = "SELECT * FROM post ORDER BY created_at LIMIT 3";
+//writing out all posts - homepage
+$posts = $database->query($sql);
+//which page will be required in @layout.html.php. format: $page.html.php
+$page = "home";
+$pageTitle = "Home";
+include "templates/@layout.html.php";
