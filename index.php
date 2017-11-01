@@ -7,4 +7,4 @@ $posts = $database->query($sql);
 //which page will be required in @layout.html.php. format: $page.html.php
 $page = "home";
 $pageTitle = "Home";
-include "templates/@layout.html.php";
+pwdinclude "templates/@layout.html.php";
