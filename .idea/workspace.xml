@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f450ff2f-4e3e-41f6-9077-ad29cdc7a23a" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/autoload.php" afterPath="$PROJECT_DIR$/vendor/autoload.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/@layout.html.php" afterPath="$PROJECT_DIR$/templates/@layout.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path=".idea/blog.iml" />
     <ignored path=".idea/modules.xml" />
@@ -235,7 +233,7 @@
       <workItem from="1509567179371" duration="1252000" />
       <workItem from="1509569037923" duration="360000" />
       <workItem from="1509569483492" duration="422000" />
-      <workItem from="1509569979242" duration="118000" />
+      <workItem from="1509569979242" duration="650000" />
     </task>
     <task id="LOCAL-00001" summary="SQL command">
       <created>1508356023103</created>
@@ -297,7 +295,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31597000" />
+    <option name="totallyTimeSpent" value="32129000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="796" height="867" extended-state="0" />
